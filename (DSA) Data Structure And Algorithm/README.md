@@ -7,9 +7,9 @@ This document provides comprehensive resources and tutorials for learning Data S
 
 ### Dev-C++ Installation
 1. Download Dev-C++ from the official website: [Dev-C++ Download](https://sourceforge.net/projects/orwelldevcpp/)
-2. Watch the installation tutorial: [![Install Dev-C++](https://youtu.be/2Wd8sY7Yqeo?si=I5yLc5ud56e2ze58)
+2. Watch the installation tutorial: [![Install Dev-C++](https://img.youtube.com/vi/2Wd8sY7Yqeo/0.jpg)](https://www.youtube.com/watch?v=2Wd8sY7Yqeo)
 
-**Video Link:** [How to Install Dev-C++](https://youtu.be/2Wd8sY7Yqeo?si=I5yLc5ud56e2ze58)
+**Video Link:** [How to Install Dev-C++](https://www.youtube.com/watch?v=2Wd8sY7Yqeo)
 
 ### Alternative IDE Options
 - Visual Studio Code with C++ extensions
@@ -88,9 +88,9 @@ Before diving into DSA, ensure you have a strong foundation in C++:
 4. [CodeChef](https://www.codechef.com/)
 
 ### Recommended DSA Course
-[![DSA Course](https://img.youtube.com/vi/0IAPZzGSbME/0.jpg)](https://www.youtube.com/watch?v=0IAPZzGSbME)
+[![DSA Course](https://img.youtube.com/vi/5_5oE5lgrhw/0.jpg)](https://www.youtube.com/watch?v=5_5oE5lgrhw)
 
-**Video Series Link:** [Data Structures and Algorithms Course](https://www.youtube.com/watch?v=5_5oE5lgrhw&list=PLu0W_9lII9ahIappRPN0MCAgtOu3lQjQi)
+**Video Series Link:** [DSA Course by Code with Harry](https://www.youtube.com/watch?v=5_5oE5lgrhw&list=PLu0W_9lII9ahIappRPN0MCAgtOu3lQjQi)
 
 ## 6. Additional Resources
 
