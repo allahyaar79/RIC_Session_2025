@@ -2,7 +2,8 @@
 using namespace std;
 
 // Structured approach using functions and variables
-void displayStudent(string name, int age) {
+void displayStudent(string name, int age) 
+{
     cout << "Name: " << name << ", Age: " << age << endl;
 }
 
