@@ -7,7 +7,7 @@ int main() {
 
     cout << "Values using pointer: ";
     for(int i = 0; i < 3; i++) {
-        cout << *(ptr + i) << " ";     //previous *ptr [i]
+        cout << *(ptr + i) << " ";     //previous *ptr[i]
     }
     return 0;
 }
