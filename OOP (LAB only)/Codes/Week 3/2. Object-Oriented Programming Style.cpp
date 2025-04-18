@@ -14,9 +14,9 @@ public:
 
 int main() {
     Student s;
-    s.name = "Ali";
-    s.age = 20;
-    s.display();
+    s.name="Ali";
+    s.age=20;
+ 	s.display()
     return 0;
 }
 
