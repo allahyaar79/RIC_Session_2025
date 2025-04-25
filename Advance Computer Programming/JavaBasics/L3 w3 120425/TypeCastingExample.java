@@ -7,7 +7,7 @@ public class TypeCastingExample {
 
         // Explicit casting (double to int)
         double num2 = 12.56;
-        int result2 = (int) num2;  // manual conversion
+        int result2 = (int) num2;// manual conversion
         System.out.println("Explicit casting (double to int): " + result2);
     }
 }
