@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     int arr[5] = {5, 2, 4, 1, 3};
-
+    
     for (int i = 1; i < 5; i++) {
         int key = arr[i];
         int j = i - 1;
