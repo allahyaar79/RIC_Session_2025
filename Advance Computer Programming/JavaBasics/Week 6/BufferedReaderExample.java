@@ -5,7 +5,7 @@ import java.io.FileReader;
 
 public class BufferedReaderExample {
     public static void main(String[] args) throws Exception {
-        BufferedReader br = new BufferedReader(new FileReader("input.txt"));
+        BufferedReader br = new BufferedReader(new FileReader("input.text"));
         String line;
         while ((line = br.readLine()) != null) {
             System.out.println(line);
