@@ -3,7 +3,7 @@ import java.io.File;
 
 public class FileExample {
     public static void main(String[] args) {
-        File file = new File("example.txt");
+        File file = new File("example.text");
         if (file.exists()) {
             System.out.println("File exists: " + file.getName());
         } else {
