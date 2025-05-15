@@ -1,0 +1,51 @@
+#include <iostream>
+using namespace std;
+
+struct Node {
+    int data;
+    Node* next;
+};
+
+int main() {
+    // Creating three nodes
+    Node* head = new Node();    // first node
+    Node* second = new Node();  // second node
+    Node* third = new Node();   // third node
+
+    // Assigning values and linking nodes
+    head->data = 10;
+    head->next = second;
+
+    second->data = 20;
+    second->next = third;
+
+    third->data = 30;
+    third->next = nullptr;  // end of list
+
+    // Traversing the list before deletion
+    cout << "Original list: ";
+    Node* temp = head;
+    while (temp != nullptr) {
+        cout << temp->data << " ";
+        temp = temp->next;
+    }
+    cout << endl;
+
+    // Deleting the node in between (second node with value 20)
+    Node* prev = head;        // node before the one to delete
+    Node* toDelete = head->next; // node to be deleted (second)
+    prev->next = toDelete->next; // skip the deleted node
+    delete toDelete;             // free memory
+
+    // Traversing the list after deletion
+    cout << "After deleting middle node (20): ";
+    temp = head;
+    while (temp != nullptr) {
+        cout << temp->data << " ";
+        temp = temp->next;
+    }
+    cout << endl;
+
+    return 0;
+}
+
