@@ -20,7 +20,7 @@ int main() {
     second->next = third;
 
     third->data = 30;
-    third->next = nullptr;  // end of list
+    third->next = NULL;  // end of list
 
     // Traversing the list
     cout << "Original list: ";
